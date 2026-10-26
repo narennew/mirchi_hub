@@ -1,0 +1,1378 @@
+{
+  "categories": [
+    {
+      "id": "cat-chaat-puri",
+      "slug": "chaat-puri",
+      "name": "Chaat & Puri Items",
+      "description": "Hot, tangy & spicy puris simmered with hot pea ragda & chutneys",
+      "icon": "UtensilsCrossed",
+      "sortOrder": 1
+    },
+    {
+      "id": "cat-bhel",
+      "slug": "bhel",
+      "name": "Bhel",
+      "description": "Crunchy puffed rice tossed with fresh onions, sev and tangy chutneys",
+      "icon": "Sparkles",
+      "sortOrder": 2
+    },
+    {
+      "id": "cat-dahi",
+      "slug": "dahi-items",
+      "name": "Dahi Items",
+      "description": "Crisp puris & kachoris layered with chilled sweet spiced curd",
+      "icon": "Sparkles",
+      "sortOrder": 3
+    },
+    {
+      "id": "cat-cheese",
+      "slug": "cheese-items",
+      "name": "Cheese Items",
+      "description": "Decadent street chaats topped with lavish melted Amul cheese",
+      "icon": "Layers",
+      "sortOrder": 4
+    },
+    {
+      "id": "cat-snacks",
+      "slug": "snacks",
+      "name": "Snacks",
+      "description": "Golden crispy samosas, flaky kachoris and pan-fried cutlets",
+      "icon": "Cookie",
+      "sortOrder": 5
+    },
+    {
+      "id": "cat-beverages",
+      "slug": "beverages",
+      "name": "Beverages",
+      "description": "Refreshing citrus mojitos and masala-infused chilled sodas",
+      "icon": "GlassWater",
+      "sortOrder": 6
+    },
+    {
+      "id": "cat-sweets",
+      "slug": "sweets",
+      "name": "Sweets",
+      "description": "Warm melt-in-mouth milk dumplings in aromatic sugar syrup",
+      "icon": "Cookie",
+      "sortOrder": 7
+    }
+  ],
+  "items": [
+    {
+      "id": "item-masala-puri",
+      "name": "Masala Puri",
+      "slug": "masala-puri",
+      "category": "Chaat & Puri Items",
+      "categoryId": "cat-chaat-puri",
+      "price": 50,
+      "description": "Crispy crushed puris submerged in steaming hot spiced dried-pea ragda, sweet date chutney, spicy mint pani, chopped onions, and fine nylon sev.",
+      "imageUrl": "/images/hero.jpg",
+      "isVegetarian": true,
+      "spiceLevel": "Medium",
+      "isBestseller": true,
+      "isAvailable": true,
+      "isVerified": true,
+      "verificationNotes": "Verified from Mirchi Chaats official menu card.",
+      "estimatedCost": 18,
+      "availableCustomizations": [
+        {
+          "id": "sev-extra",
+          "name": "Extra Crunchy Sev",
+          "price": 10
+        },
+        {
+          "id": "ragda-extra",
+          "name": "Extra Hot Ragda",
+          "price": 15
+        },
+        {
+          "id": "onion-extra",
+          "name": "Extra Chopped Onions",
+          "price": 5
+        }
+      ]
+    },
+    {
+      "id": "item-pani-puri",
+      "name": "Pani Puri",
+      "slug": "pani-puri",
+      "category": "Chaat & Puri Items",
+      "categoryId": "cat-chaat-puri",
+      "price": 50,
+      "description": "Crisp hollow golden puris served with seasoned potato-ragda mix, chilled spicy teekha mint-coriander pani, and sweet date tamarind water.",
+      "imageUrl": "/images/hero.jpg",
+      "isVegetarian": true,
+      "spiceLevel": "Medium",
+      "isBestseller": true,
+      "isAvailable": true,
+      "isVerified": true,
+      "verificationNotes": "Verified from Mirchi Chaats official menu card.",
+      "estimatedCost": 16,
+      "availableCustomizations": [
+        {
+          "id": "extra-puris",
+          "name": "Extra 4 Puris",
+          "price": 15
+        },
+        {
+          "id": "sweet-water",
+          "name": "Extra Sweet Pani",
+          "price": 10
+        }
+      ]
+    },
+    {
+      "id": "item-aloo-puri",
+      "name": "Aloo Puri",
+      "slug": "aloo-puri",
+      "category": "Chaat & Puri Items",
+      "categoryId": "cat-chaat-puri",
+      "price": 60,
+      "description": "Puris loaded with spiced boiled potato mash, roasted cumin masala, sweet tamarind chutney, mint drizzle, and crispy sev.",
+      "imageUrl": "/images/hero.jpg",
+      "isVegetarian": true,
+      "spiceLevel": "Medium",
+      "isBestseller": false,
+      "isAvailable": true,
+      "isVerified": true,
+      "verificationNotes": "Verified from Mirchi Chaats official menu card.",
+      "estimatedCost": 20,
+      "availableCustomizations": [
+        {
+          "id": "sev-extra",
+          "name": "Extra Crunchy Sev",
+          "price": 10
+        }
+      ]
+    },
+    {
+      "id": "item-mirchi-masala",
+      "name": "Mirchi Masala",
+      "slug": "mirchi-masala",
+      "category": "Chaat & Puri Items",
+      "categoryId": "cat-chaat-puri",
+      "price": 55,
+      "description": "Store signature: Stuffed green chilli bhajji sliced and layered with boiling yellow pea ragda, cumin dust, sweet date chutney, and crunchy sev.",
+      "imageUrl": "/images/hero.jpg",
+      "isVegetarian": true,
+      "spiceLevel": "Extra Spicy",
+      "isBestseller": true,
+      "isAvailable": true,
+      "isVerified": true,
+      "verificationNotes": "Verified from Mirchi Chaats official menu card.",
+      "estimatedCost": 20,
+      "availableCustomizations": [
+        {
+          "id": "sev-extra",
+          "name": "Extra Sev",
+          "price": 10
+        },
+        {
+          "id": "dahi-top",
+          "name": "Add Chilled Sweet Dahi",
+          "price": 15
+        }
+      ]
+    },
+    {
+      "id": "item-banglore-masala-puri",
+      "name": "Banglore Masala Puri",
+      "slug": "banglore-masala-puri",
+      "category": "Chaat & Puri Items",
+      "categoryId": "cat-chaat-puri",
+      "price": 55,
+      "description": "Karnataka-style aromatic masala puri with clove-cinnamon infused hot pea broth, crushed papdi, diced carrots, onions, coriander, and fine sev.",
+      "imageUrl": "/images/hero.jpg",
+      "isVegetarian": true,
+      "spiceLevel": "Medium",
+      "isBestseller": true,
+      "isAvailable": true,
+      "isVerified": true,
+      "verificationNotes": "Verified from Mirchi Chaats official menu card.",
+      "estimatedCost": 20,
+      "availableCustomizations": [
+        {
+          "id": "sev-extra",
+          "name": "Extra Sev",
+          "price": 10
+        }
+      ]
+    },
+    {
+      "id": "item-kalan-mushroom",
+      "name": "Kalan (Mushroom)",
+      "slug": "kalan-mushroom",
+      "category": "Chaat & Puri Items",
+      "categoryId": "cat-chaat-puri",
+      "price": 70,
+      "description": "Authentic Coimbatore street specialty: shredded crispy mushrooms and cabbage cooked in a spicy, piping hot thick roadside gravy with chopped onions and curry leaves.",
+      "imageUrl": "/images/hero.jpg",
+      "isVegetarian": true,
+      "spiceLevel": "Extra Spicy",
+      "isBestseller": true,
+      "isAvailable": true,
+      "isVerified": true,
+      "verificationNotes": "Verified from Mirchi Chaats official menu card.",
+      "estimatedCost": 25,
+      "availableCustomizations": [
+        {
+          "id": "onion-extra",
+          "name": "Extra Raw Onions & Lemon",
+          "price": 5
+        }
+      ]
+    },
+    {
+      "id": "item-pav-bhaji-plain",
+      "name": "Pav Bhaji Plain",
+      "slug": "pav-bhaji-plain",
+      "category": "Chaat & Puri Items",
+      "categoryId": "cat-chaat-puri",
+      "price": 90,
+      "description": "Classic Mumbai-style mashed vegetable curry cooked on a flat tawa with generous butter and house pav bhaji masala, served with 2 butter-toasted pav buns, onions and lemon.",
+      "imageUrl": "/images/pav_bhaji.jpg",
+      "isVegetarian": true,
+      "spiceLevel": "Medium",
+      "isBestseller": true,
+      "isAvailable": true,
+      "isVerified": true,
+      "verificationNotes": "Verified from Mirchi Chaats official menu card.",
+      "estimatedCost": 35,
+      "availableCustomizations": [
+        {
+          "id": "extra-pav-pair",
+          "name": "Extra Butter Pav (2 Pcs)",
+          "price": 40
+        }
+      ]
+    },
+    {
+      "id": "item-masala-bhel",
+      "name": "Masala Bhel",
+      "slug": "masala-bhel",
+      "category": "Bhel",
+      "categoryId": "cat-bhel",
+      "price": 55,
+      "description": "Puffed rice tossed with crushed papdi, spicy roasted peanuts, diced onions, tomatoes, raw mango shreds, coriander, and zesty street chutneys.",
+      "imageUrl": "/images/hero.jpg",
+      "isVegetarian": true,
+      "spiceLevel": "Medium",
+      "isBestseller": true,
+      "isAvailable": true,
+      "isVerified": true,
+      "verificationNotes": "Verified from Mirchi Chaats official menu card.",
+      "estimatedCost": 18,
+      "availableCustomizations": [
+        {
+          "id": "sev-extra",
+          "name": "Extra Sev",
+          "price": 10
+        }
+      ]
+    },
+    {
+      "id": "item-mushroom-bhel",
+      "name": "Mushroom Bhel",
+      "slug": "mushroom-bhel",
+      "category": "Bhel",
+      "categoryId": "cat-bhel",
+      "price": 65,
+      "description": "Signature fusion bhel loaded with crispy pan-fried mushroom bites, spicy bhel mixture, sweet tamarind and pungent garlic-chilli chutney.",
+      "imageUrl": "/images/hero.jpg",
+      "isVegetarian": true,
+      "spiceLevel": "Medium",
+      "isBestseller": true,
+      "isAvailable": true,
+      "isVerified": true,
+      "verificationNotes": "Verified from Mirchi Chaats official menu card.",
+      "estimatedCost": 22,
+      "availableCustomizations": [
+        {
+          "id": "sev-extra",
+          "name": "Extra Sev",
+          "price": 10
+        }
+      ]
+    },
+    {
+      "id": "item-bombay-bhel",
+      "name": "Bombay Bhel",
+      "slug": "bombay-bhel",
+      "category": "Bhel",
+      "categoryId": "cat-bhel",
+      "price": 60,
+      "description": "Chowpatty-style wet bhel with boiled potato cubes, kala chana, crispy puri pieces, sweet date saunth, spicy green mint dip, and a shower of fine sev.",
+      "imageUrl": "/images/hero.jpg",
+      "isVegetarian": true,
+      "spiceLevel": "Medium",
+      "isBestseller": false,
+      "isAvailable": true,
+      "isVerified": true,
+      "verificationNotes": "Verified from Mirchi Chaats official menu card.",
+      "estimatedCost": 20,
+      "availableCustomizations": [
+        {
+          "id": "sev-extra",
+          "name": "Extra Sev",
+          "price": 10
+        }
+      ]
+    },
+    {
+      "id": "item-dahi-puri",
+      "name": "Dahi Puri",
+      "slug": "dahi-puri",
+      "category": "Dahi Items",
+      "categoryId": "cat-dahi",
+      "price": 60,
+      "description": "Crisp puris stuffed with potato mash, flooded with thick chilled sweetened curd, tamarind glaze, spicy mint sauce, pomegranate pearls, and nylon sev.",
+      "imageUrl": "/images/dahi_chaat.jpg",
+      "isVegetarian": true,
+      "spiceLevel": "Mild",
+      "isBestseller": true,
+      "isAvailable": true,
+      "isVerified": true,
+      "verificationNotes": "Verified from Mirchi Chaats official menu card.",
+      "estimatedCost": 22,
+      "availableCustomizations": [
+        {
+          "id": "extra-dahi",
+          "name": "Extra Chilled Sweet Dahi",
+          "price": 15
+        },
+        {
+          "id": "extra-sev",
+          "name": "Extra Fine Sev",
+          "price": 10
+        }
+      ]
+    },
+    {
+      "id": "item-dahi-kachori",
+      "name": "Dahi Kachori",
+      "slug": "dahi-kachori",
+      "category": "Dahi Items",
+      "categoryId": "cat-dahi",
+      "price": 65,
+      "description": "Flaky moong dal kachori gently broken and immersed in chilled seasoned yogurt, topped with sweet saunth and green chutney.",
+      "imageUrl": "/images/dahi_chaat.jpg",
+      "isVegetarian": true,
+      "spiceLevel": "Mild",
+      "isBestseller": true,
+      "isAvailable": true,
+      "isVerified": true,
+      "verificationNotes": "Verified from Mirchi Chaats official menu card.",
+      "estimatedCost": 24,
+      "availableCustomizations": [
+        {
+          "id": "extra-dahi",
+          "name": "Extra Curd",
+          "price": 15
+        }
+      ]
+    },
+    {
+      "id": "item-dahi-cutlet",
+      "name": "Dahi Cutlet",
+      "slug": "dahi-cutlet",
+      "category": "Dahi Items",
+      "categoryId": "cat-dahi",
+      "price": 65,
+      "description": "Crispy shallow-fried vegetable cutlet blanketed in cooling sweetened curd, roasted cumin, and sweet-tangy street sauces.",
+      "imageUrl": "/images/dahi_chaat.jpg",
+      "isVegetarian": true,
+      "spiceLevel": "Mild",
+      "isBestseller": false,
+      "isAvailable": true,
+      "isVerified": true,
+      "verificationNotes": "Verified from Mirchi Chaats official menu card.",
+      "estimatedCost": 24,
+      "availableCustomizations": [
+        {
+          "id": "extra-dahi",
+          "name": "Extra Curd",
+          "price": 15
+        }
+      ]
+    },
+    {
+      "id": "item-dahi-bombay-bhel",
+      "name": "Dahi Bombay Bhel",
+      "slug": "dahi-bombay-bhel",
+      "category": "Dahi Items",
+      "categoryId": "cat-dahi",
+      "price": 65,
+      "description": "Crunchy Bombay bhel tossed with a creamy splash of seasoned dahi, pomegranate seeds, and fresh coriander garnish.",
+      "imageUrl": "/images/dahi_chaat.jpg",
+      "isVegetarian": true,
+      "spiceLevel": "Mild",
+      "isBestseller": true,
+      "isAvailable": true,
+      "isVerified": true,
+      "verificationNotes": "Verified from Mirchi Chaats official menu card.",
+      "estimatedCost": 24,
+      "availableCustomizations": [
+        {
+          "id": "extra-dahi",
+          "name": "Extra Curd",
+          "price": 15
+        }
+      ]
+    },
+    {
+      "id": "item-cheese-pav-bhaji",
+      "name": "Cheese Pav Bhaji",
+      "slug": "cheese-pav-bhaji",
+      "category": "Cheese Items",
+      "categoryId": "cat-cheese",
+      "price": 120,
+      "description": "Signature rich mashed vegetable bhaji simmered in pure butter, crowned with a lavish layer of melted Amul cheese, served with 2 golden butter pavs.",
+      "imageUrl": "/images/pav_bhaji.jpg",
+      "isVegetarian": true,
+      "spiceLevel": "Medium",
+      "isBestseller": true,
+      "isAvailable": true,
+      "isVerified": true,
+      "verificationNotes": "Verified from Mirchi Chaats official menu card.",
+      "estimatedCost": 45,
+      "availableCustomizations": [
+        {
+          "id": "extra-pav-pair",
+          "name": "Extra Butter Pav (2 Pcs)",
+          "price": 40
+        },
+        {
+          "id": "extra-cheese",
+          "name": "Extra Grated Cheese",
+          "price": 25
+        }
+      ]
+    },
+    {
+      "id": "item-cheese-mushroom",
+      "name": "Cheese Mushroom",
+      "slug": "cheese-mushroom",
+      "category": "Cheese Items",
+      "categoryId": "cat-cheese",
+      "price": 85,
+      "description": "Hot tawa-sautéed spiced mushrooms blanketed in melted Amul cheese and chaat seasoning.",
+      "imageUrl": "/images/pav_bhaji.jpg",
+      "isVegetarian": true,
+      "spiceLevel": "Medium",
+      "isBestseller": true,
+      "isAvailable": true,
+      "isVerified": true,
+      "verificationNotes": "Verified from Mirchi Chaats official menu card.",
+      "estimatedCost": 32,
+      "availableCustomizations": [
+        {
+          "id": "extra-cheese",
+          "name": "Extra Cheese",
+          "price": 25
+        }
+      ]
+    },
+    {
+      "id": "item-cheese-bombay-bhel",
+      "name": "Cheese Bombay Bhel",
+      "slug": "cheese-bombay-bhel",
+      "category": "Cheese Items",
+      "categoryId": "cat-cheese",
+      "price": 85,
+      "description": "Bombay street bhel topped generously with finely grated Amul cheese, sweet saunth, spicy green dip, and golden nylon sev.",
+      "imageUrl": "/images/dahi_chaat.jpg",
+      "isVegetarian": true,
+      "spiceLevel": "Medium",
+      "isBestseller": false,
+      "isAvailable": true,
+      "isVerified": true,
+      "verificationNotes": "Verified from Mirchi Chaats official menu card.",
+      "estimatedCost": 32,
+      "availableCustomizations": [
+        {
+          "id": "extra-cheese",
+          "name": "Extra Cheese",
+          "price": 25
+        }
+      ]
+    },
+    {
+      "id": "item-samosa-plain",
+      "name": "Samosa Plain",
+      "slug": "samosa-plain",
+      "category": "Snacks",
+      "categoryId": "cat-snacks",
+      "price": 25,
+      "description": "Golden crispy pastry triangle filled with spiced potatoes and green peas. Served with mint and sweet tamarind dips.",
+      "imageUrl": "/images/hero.jpg",
+      "isVegetarian": true,
+      "spiceLevel": "Mild",
+      "isBestseller": true,
+      "isAvailable": true,
+      "isVerified": true,
+      "verificationNotes": "Verified from Mirchi Chaats official menu card.",
+      "estimatedCost": 8,
+      "availableCustomizations": [
+        {
+          "id": "chutney-extra",
+          "name": "Extra Chutney Pair",
+          "price": 10
+        }
+      ]
+    },
+    {
+      "id": "item-kachori-plain",
+      "name": "Kachori Plain",
+      "slug": "kachori-plain",
+      "category": "Snacks",
+      "categoryId": "cat-snacks",
+      "price": 30,
+      "description": "Flaky deep-fried puffed pastry packed with roasted moong dal, fennel, and whole Indian spices.",
+      "imageUrl": "/images/hero.jpg",
+      "isVegetarian": true,
+      "spiceLevel": "Mild",
+      "isBestseller": false,
+      "isAvailable": true,
+      "isVerified": true,
+      "verificationNotes": "Verified from Mirchi Chaats official menu card.",
+      "estimatedCost": 10,
+      "availableCustomizations": [
+        {
+          "id": "chutney-extra",
+          "name": "Extra Chutney Pair",
+          "price": 10
+        }
+      ]
+    },
+    {
+      "id": "item-cutlet-plain",
+      "name": "Cutlet Plain",
+      "slug": "cutlet-plain",
+      "category": "Snacks",
+      "categoryId": "cat-snacks",
+      "price": 20,
+      "description": "Golden crumb-crusted vegetable patty prepared with potatoes, beetroot, carrots and mild spices.",
+      "imageUrl": "/images/hero.jpg",
+      "isVegetarian": true,
+      "spiceLevel": "Mild",
+      "isBestseller": false,
+      "isAvailable": true,
+      "isVerified": true,
+      "verificationNotes": "Verified from Mirchi Chaats official menu card.",
+      "estimatedCost": 7,
+      "availableCustomizations": []
+    },
+    {
+      "id": "item-masala-samosa",
+      "name": "Masala Samosa",
+      "slug": "masala-samosa",
+      "category": "Snacks",
+      "categoryId": "cat-snacks",
+      "price": 55,
+      "description": "Crisp samosa crushed and doused with boiling spiced ragda gravy, chopped onions, mint and date chutney, and crunchy sev.",
+      "imageUrl": "/images/hero.jpg",
+      "isVegetarian": true,
+      "spiceLevel": "Medium",
+      "isBestseller": true,
+      "isAvailable": true,
+      "isVerified": true,
+      "verificationNotes": "Verified from Mirchi Chaats official menu card.",
+      "estimatedCost": 20,
+      "availableCustomizations": [
+        {
+          "id": "sev-extra",
+          "name": "Extra Sev",
+          "price": 10
+        },
+        {
+          "id": "dahi-top",
+          "name": "Add Chilled Sweet Dahi",
+          "price": 15
+        }
+      ]
+    },
+    {
+      "id": "item-masala-kachori",
+      "name": "Masala Kachori",
+      "slug": "masala-kachori",
+      "category": "Snacks",
+      "categoryId": "cat-snacks",
+      "price": 55,
+      "description": "Crisp dal kachori cracked open and covered with rich boiling ragda gravy, tangy street chutneys, and fine sev.",
+      "imageUrl": "/images/hero.jpg",
+      "isVegetarian": true,
+      "spiceLevel": "Medium",
+      "isBestseller": false,
+      "isAvailable": true,
+      "isVerified": true,
+      "verificationNotes": "Verified from Mirchi Chaats official menu card.",
+      "estimatedCost": 20,
+      "availableCustomizations": [
+        {
+          "id": "sev-extra",
+          "name": "Extra Sev",
+          "price": 10
+        },
+        {
+          "id": "dahi-top",
+          "name": "Add Chilled Sweet Dahi",
+          "price": 15
+        }
+      ]
+    },
+    {
+      "id": "item-masala-cutlet",
+      "name": "Masala Cutlet",
+      "slug": "masala-cutlet",
+      "category": "Snacks",
+      "categoryId": "cat-snacks",
+      "price": 60,
+      "description": "Vegetable cutlet smothered in hot chana ragda gravy, roasted cumin, diced onions, and crispy nylon sev.",
+      "imageUrl": "/images/hero.jpg",
+      "isVegetarian": true,
+      "spiceLevel": "Medium",
+      "isBestseller": false,
+      "isAvailable": true,
+      "isVerified": true,
+      "verificationNotes": "Verified from Mirchi Chaats official menu card.",
+      "estimatedCost": 22,
+      "availableCustomizations": [
+        {
+          "id": "sev-extra",
+          "name": "Extra Sev",
+          "price": 10
+        }
+      ]
+    },
+    {
+      "id": "item-masala-pepsi",
+      "name": "Masala Pepsi",
+      "slug": "masala-pepsi",
+      "category": "Beverages",
+      "categoryId": "cat-beverages",
+      "price": 60,
+      "description": "Chilled Pepsi spiked with roasted cumin, black salt (kala namak), street chaat masala, and fresh lemon juice.",
+      "imageUrl": "/images/beverages.jpg",
+      "isVegetarian": true,
+      "spiceLevel": "Mild",
+      "isBestseller": false,
+      "isAvailable": true,
+      "isVerified": true,
+      "verificationNotes": "Verified from Mirchi Chaats official menu card.",
+      "estimatedCost": 22,
+      "availableCustomizations": []
+    },
+    {
+      "id": "item-masala-7up",
+      "name": "Masala 7up",
+      "slug": "masala-7up",
+      "category": "Beverages",
+      "categoryId": "cat-beverages",
+      "price": 60,
+      "description": "Sparkling chilled 7up infused with jaljeera seasonings, black salt, fresh mint, and zesty lemon.",
+      "imageUrl": "/images/beverages.jpg",
+      "isVegetarian": true,
+      "spiceLevel": "Mild",
+      "isBestseller": false,
+      "isAvailable": true,
+      "isVerified": true,
+      "verificationNotes": "Verified from Mirchi Chaats official menu card.",
+      "estimatedCost": 22,
+      "availableCustomizations": []
+    },
+    {
+      "id": "item-lemon-mint-mojito",
+      "name": "Lemon Mint Mojito",
+      "slug": "lemon-mint-mojito",
+      "category": "Beverages",
+      "categoryId": "cat-beverages",
+      "price": 70,
+      "description": "Freshly muddled garden mint, tangy fresh lime juice, cane sugar syrup, crushed ice, and effervescent sparkling soda.",
+      "imageUrl": "/images/beverages.jpg",
+      "isVegetarian": true,
+      "spiceLevel": "Mild",
+      "isBestseller": true,
+      "isAvailable": true,
+      "isVerified": true,
+      "verificationNotes": "Verified from Mirchi Chaats official menu card.",
+      "estimatedCost": 22,
+      "availableCustomizations": []
+    },
+    {
+      "id": "item-blue-heaven-mojito",
+      "name": "Blue Heaven Mojito",
+      "slug": "blue-heaven-mojito",
+      "category": "Beverages",
+      "categoryId": "cat-beverages",
+      "price": 70,
+      "description": "Vibrant electric blue citrus mocktail layered with curacao notes, lime wheels, crushed ice, and chilled soda fizz.",
+      "imageUrl": "/images/beverages.jpg",
+      "isVegetarian": true,
+      "spiceLevel": "Mild",
+      "isBestseller": true,
+      "isAvailable": true,
+      "isVerified": true,
+      "verificationNotes": "Verified from Mirchi Chaats official menu card.",
+      "estimatedCost": 22,
+      "availableCustomizations": []
+    },
+    {
+      "id": "item-gulab-jamun",
+      "name": "Gulab Jamun",
+      "slug": "gulab-jamun",
+      "category": "Sweets",
+      "categoryId": "cat-sweets",
+      "price": 30,
+      "description": "Warm, soft milk dumplings soaked in fragrant rose and cardamom infused sugar syrup.",
+      "imageUrl": "/images/hero.jpg",
+      "isVegetarian": true,
+      "spiceLevel": "Mild",
+      "isBestseller": true,
+      "isAvailable": true,
+      "isVerified": true,
+      "verificationNotes": "Verified from Mirchi Chaats official menu card.",
+      "estimatedCost": 10,
+      "availableCustomizations": []
+    }
+  ],
+  "promos": [
+    {
+      "id": "promo-welcome50",
+      "code": "WELCOME50",
+      "description": "₹50 flat discount on your direct order above ₹200",
+      "discountType": "FLAT",
+      "discountValue": 50,
+      "minOrderValue": 200,
+      "isActive": true
+    },
+    {
+      "id": "promo-chaat20",
+      "code": "CHAAT20",
+      "description": "20% off up to ₹60 on all orders above ₹150",
+      "discountType": "PERCENTAGE",
+      "discountValue": 20,
+      "minOrderValue": 150,
+      "maxDiscount": 60,
+      "isActive": true
+    },
+    {
+      "id": "promo-festive10",
+      "code": "TOWNHALL10",
+      "description": "10% instant discount for Town Hall Coimbatore locals (min ₹100)",
+      "discountType": "PERCENTAGE",
+      "discountValue": 10,
+      "minOrderValue": 100,
+      "maxDiscount": 40,
+      "isActive": true
+    }
+  ],
+  "settings": {
+    "storeName": "Mirchi Chaats",
+    "phone": "9994147744 / 9597400881",
+    "address": "Vysial Street, Town Hall, Coimbatore, Tamil Nadu 641001",
+    "deliveryRadiusKm": 8,
+    "baseDeliveryFee": 30,
+    "freeDeliveryThreshold": 399,
+    "isDeliveryActive": true,
+    "isTakeawayActive": false,
+    "activeDeliveryProvider": "Shop In-House Delivery (Town Hall Fleet)",
+    "rapidoBikeAllowed": false,
+    "rapidoBikeNotice": "Disabled: Commercial carriage by two-wheeler bike taxis is subject to state transport guidelines in Tamil Nadu. The shop keeps this disabled until full transport compliance is registered.",
+    "estimatedDeliveryMins": 30,
+    "gstPercentage": 5,
+    "variableCostRatio": 0.38
+  },
+  "orders": [
+    {
+      "customerName": "NAREN KG",
+      "customerPhone": "9597400881",
+      "orderType": "DELIVERY",
+      "status": "PLACED",
+      "deliveryAddress": "Aarudra apartment 3rd block 2c perur main road telegupalayam pirivu, Coimbatore",
+      "pincode": "641039",
+      "subtotal": 25,
+      "discountAmount": 0,
+      "deliveryFee": 30,
+      "taxAmount": 1.25,
+      "finalAmount": 56,
+      "paymentMethod": "ONLINE",
+      "paymentStatus": "PAID",
+      "paymentGatewayRef": "rzp_direct_1793020534736",
+      "deliveryProvider": "Shop In-House Delivery (Town Hall Fleet)",
+      "items": [
+        {
+          "id": "ord-item-1793020534735-0.2531143113998895",
+          "productId": "item-samosa-plain",
+          "productName": "Samosa Plain",
+          "unitPrice": 25,
+          "quantity": 1,
+          "subtotal": 25,
+          "selectedSpice": "Mild",
+          "customizations": []
+        }
+      ],
+      "id": "ord-1793020534737",
+      "orderNumber": "MC-2026-1852",
+      "createdAt": "2026-10-26T13:15:34.737Z",
+      "updatedAt": "2026-10-26T13:15:34.737Z"
+    },
+    {
+      "customerName": "Naren Kg",
+      "customerPhone": "9597400881",
+      "orderType": "DELIVERY",
+      "status": "PLACED",
+      "deliveryAddress": "teleguplalayam, Coimbatore",
+      "pincode": "641039",
+      "subtotal": 140,
+      "discountAmount": 0,
+      "deliveryFee": 30,
+      "taxAmount": 7,
+      "finalAmount": 177,
+      "paymentMethod": "ONLINE",
+      "paymentStatus": "PAID",
+      "paymentGatewayRef": "rzp_direct_1793019438117",
+      "deliveryProvider": "Shop In-House Delivery (Town Hall Fleet)",
+      "items": [
+        {
+          "id": "ord-item-1793019438117-0.8998945426553527",
+          "productId": "item-blue-heaven-mojito",
+          "productName": "Blue Heaven Mojito",
+          "unitPrice": 70,
+          "quantity": 2,
+          "subtotal": 140,
+          "selectedSpice": "Mild",
+          "customizations": []
+        }
+      ],
+      "id": "ord-1793019438118",
+      "orderNumber": "MC-2026-2455",
+      "createdAt": "2026-10-26T12:57:18.118Z",
+      "updatedAt": "2026-10-26T12:57:18.118Z"
+    },
+    {
+      "customerName": "Naren Kg",
+      "customerPhone": "9597400881",
+      "customerEmail": "naren1872005@gmail.com",
+      "orderType": "DELIVERY",
+      "status": "PLACED",
+      "deliveryAddress": "teleguplalayam",
+      "landmark": "Coimbatore",
+      "orderNotes": "641039",
+      "subtotal": 135,
+      "discountAmount": 0,
+      "deliveryFee": 30,
+      "taxAmount": 6.75,
+      "finalAmount": 172,
+      "paymentMethod": "ONLINE",
+      "paymentStatus": "PAID",
+      "paymentGatewayRef": "rzp_direct_1793018730867",
+      "deliveryProvider": "Shop In-House Delivery (Town Hall Fleet)",
+      "items": [
+        {
+          "id": "ord-item-1793018730866-0.5288970523164979",
+          "productId": "item-pani-puri",
+          "productName": "Pani Puri",
+          "unitPrice": 65,
+          "quantity": 1,
+          "subtotal": 65,
+          "selectedSpice": "Medium",
+          "customizations": [
+            {
+              "id": "extra-puris",
+              "name": "Extra 4 Puris",
+              "price": 15
+            }
+          ]
+        },
+        {
+          "id": "ord-item-1793018730866-0.29345939310866087",
+          "productId": "item-masala-puri",
+          "productName": "Masala Puri",
+          "unitPrice": 70,
+          "quantity": 1,
+          "subtotal": 70,
+          "selectedSpice": "Medium",
+          "customizations": [
+            {
+              "id": "extra-puris",
+              "name": "Extra 4 Puris",
+              "price": 15
+            },
+            {
+              "id": "onion-extra",
+              "name": "Extra Chopped Onions",
+              "price": 5
+            }
+          ]
+        }
+      ],
+      "id": "ord-1793018730868",
+      "orderNumber": "MC-2026-9965",
+      "createdAt": "2026-10-26T12:45:30.868Z",
+      "updatedAt": "2026-10-26T12:45:30.868Z"
+    },
+    {
+      "customerName": "Meenakshi Sundaram",
+      "customerPhone": "+91 99440 22114",
+      "orderType": "TAKEAWAY",
+      "status": "PLACED",
+      "subtotal": 100,
+      "discountAmount": 0,
+      "deliveryFee": 0,
+      "taxAmount": 5,
+      "finalAmount": 105,
+      "paymentMethod": "COD",
+      "paymentStatus": "PENDING",
+      "items": [
+        {
+          "id": "ord-item-1793018334444-0.006140310484690437",
+          "productId": "item-masala-puri",
+          "productName": "Masala Puri",
+          "unitPrice": 50,
+          "quantity": 2,
+          "subtotal": 100,
+          "selectedSpice": "Medium",
+          "customizations": []
+        }
+      ],
+      "id": "ord-1793018334445",
+      "orderNumber": "MC-2026-8600",
+      "createdAt": "2026-10-26T12:38:54.445Z",
+      "updatedAt": "2026-10-26T12:38:54.446Z"
+    },
+    {
+      "customerName": "Priya Sundaram",
+      "customerPhone": "+91 98430 11223",
+      "orderType": "DELIVERY",
+      "status": "OUT_FOR_DELIVERY",
+      "deliveryAddress": "32, Vysial Street, Coimbatore",
+      "subtotal": 105,
+      "discountAmount": 0,
+      "deliveryFee": 30,
+      "taxAmount": 5.25,
+      "finalAmount": 140,
+      "paymentMethod": "COD",
+      "paymentStatus": "PENDING",
+      "items": [
+        {
+          "id": "test-item-1",
+          "productId": "item-masala-puri",
+          "productName": "Masala Puri",
+          "unitPrice": 50,
+          "quantity": 1,
+          "subtotal": 50
+        },
+        {
+          "id": "test-item-2",
+          "productId": "item-masala-samosa",
+          "productName": "Masala Samosa",
+          "unitPrice": 55,
+          "quantity": 1,
+          "subtotal": 55
+        }
+      ],
+      "id": "ord-1793018334350",
+      "orderNumber": "MC-2026-2671",
+      "createdAt": "2026-10-26T12:38:54.350Z",
+      "updatedAt": "2026-10-26T12:38:54.353Z",
+      "deliveryProvider": "Shop In-House Delivery (Town Hall Fleet)",
+      "deliveryTrackingRef": "RIDER-RAMESH-88"
+    },
+    {
+      "customerName": "Meenakshi Sundaram",
+      "customerPhone": "+91 99440 22114",
+      "orderType": "TAKEAWAY",
+      "status": "PLACED",
+      "subtotal": 100,
+      "discountAmount": 0,
+      "deliveryFee": 0,
+      "taxAmount": 5,
+      "finalAmount": 105,
+      "paymentMethod": "COD",
+      "paymentStatus": "PENDING",
+      "items": [
+        {
+          "id": "ord-item-1793018212297-0.5946577185378906",
+          "productId": "item-masala-puri",
+          "productName": "Masala Puri",
+          "unitPrice": 50,
+          "quantity": 2,
+          "subtotal": 100,
+          "selectedSpice": "Medium",
+          "customizations": []
+        }
+      ],
+      "id": "ord-1793018212298",
+      "orderNumber": "MC-2026-2549",
+      "createdAt": "2026-10-26T12:36:52.298Z",
+      "updatedAt": "2026-10-26T12:36:52.300Z"
+    },
+    {
+      "customerName": "Priya Sundaram",
+      "customerPhone": "+91 98430 11223",
+      "orderType": "DELIVERY",
+      "status": "OUT_FOR_DELIVERY",
+      "deliveryAddress": "32, Vysial Street, Coimbatore",
+      "subtotal": 105,
+      "discountAmount": 0,
+      "deliveryFee": 30,
+      "taxAmount": 5.25,
+      "finalAmount": 140,
+      "paymentMethod": "COD",
+      "paymentStatus": "PENDING",
+      "items": [
+        {
+          "id": "test-item-1",
+          "productId": "item-masala-puri",
+          "productName": "Masala Puri",
+          "unitPrice": 50,
+          "quantity": 1,
+          "subtotal": 50
+        },
+        {
+          "id": "test-item-2",
+          "productId": "item-masala-samosa",
+          "productName": "Masala Samosa",
+          "unitPrice": 55,
+          "quantity": 1,
+          "subtotal": 55
+        }
+      ],
+      "id": "ord-1793018212157",
+      "orderNumber": "MC-2026-8982",
+      "createdAt": "2026-10-26T12:36:52.157Z",
+      "updatedAt": "2026-10-26T12:36:52.165Z",
+      "deliveryProvider": "Shop In-House Delivery (Town Hall Fleet)",
+      "deliveryTrackingRef": "RIDER-RAMESH-88"
+    },
+    {
+      "customerName": "Meenakshi Sundaram",
+      "customerPhone": "+91 99440 22114",
+      "orderType": "TAKEAWAY",
+      "status": "PLACED",
+      "subtotal": 100,
+      "discountAmount": 0,
+      "deliveryFee": 0,
+      "taxAmount": 5,
+      "finalAmount": 105,
+      "paymentMethod": "COD",
+      "paymentStatus": "PENDING",
+      "items": [
+        {
+          "id": "ord-item-1793017212951-0.2829746185948995",
+          "productId": "item-masala-puri",
+          "productName": "Masala Puri",
+          "unitPrice": 50,
+          "quantity": 2,
+          "subtotal": 100,
+          "selectedSpice": "Medium",
+          "customizations": []
+        }
+      ],
+      "id": "ord-1793017212951",
+      "orderNumber": "MC-2026-8331",
+      "createdAt": "2026-10-26T12:20:12.951Z",
+      "updatedAt": "2026-10-26T12:20:12.952Z"
+    },
+    {
+      "customerName": "Priya Sundaram",
+      "customerPhone": "+91 98430 11223",
+      "orderType": "DELIVERY",
+      "status": "OUT_FOR_DELIVERY",
+      "deliveryAddress": "32, Vysial Street, Coimbatore",
+      "subtotal": 105,
+      "discountAmount": 0,
+      "deliveryFee": 30,
+      "taxAmount": 5.25,
+      "finalAmount": 140,
+      "paymentMethod": "COD",
+      "paymentStatus": "PENDING",
+      "items": [
+        {
+          "id": "test-item-1",
+          "productId": "item-masala-puri",
+          "productName": "Masala Puri",
+          "unitPrice": 50,
+          "quantity": 1,
+          "subtotal": 50
+        },
+        {
+          "id": "test-item-2",
+          "productId": "item-masala-samosa",
+          "productName": "Masala Samosa",
+          "unitPrice": 55,
+          "quantity": 1,
+          "subtotal": 55
+        }
+      ],
+      "id": "ord-1793017212894",
+      "orderNumber": "MC-2026-5551",
+      "createdAt": "2026-10-26T12:20:12.894Z",
+      "updatedAt": "2026-10-26T12:20:12.898Z",
+      "deliveryProvider": "Shop In-House Delivery (Town Hall Fleet)",
+      "deliveryTrackingRef": "RIDER-RAMESH-88"
+    },
+    {
+      "customerName": "Meenakshi Sundaram",
+      "customerPhone": "+91 99440 22114",
+      "orderType": "TAKEAWAY",
+      "status": "PLACED",
+      "subtotal": 100,
+      "discountAmount": 0,
+      "deliveryFee": 0,
+      "taxAmount": 5,
+      "finalAmount": 105,
+      "paymentMethod": "COD",
+      "paymentStatus": "PENDING",
+      "items": [
+        {
+          "id": "ord-item-1793016251685-0.6310676789612079",
+          "productId": "item-masala-puri",
+          "productName": "Masala Puri",
+          "unitPrice": 50,
+          "quantity": 2,
+          "subtotal": 100,
+          "selectedSpice": "Medium",
+          "customizations": []
+        }
+      ],
+      "id": "ord-1793016251685",
+      "orderNumber": "MC-2026-6129",
+      "createdAt": "2026-10-26T12:04:11.685Z",
+      "updatedAt": "2026-10-26T12:04:11.686Z"
+    },
+    {
+      "customerName": "Priya Sundaram",
+      "customerPhone": "+91 98430 11223",
+      "orderType": "DELIVERY",
+      "status": "OUT_FOR_DELIVERY",
+      "deliveryAddress": "32, Vysial Street, Coimbatore",
+      "subtotal": 105,
+      "discountAmount": 0,
+      "deliveryFee": 30,
+      "taxAmount": 5.25,
+      "finalAmount": 140,
+      "paymentMethod": "COD",
+      "paymentStatus": "PENDING",
+      "items": [
+        {
+          "id": "test-item-1",
+          "productId": "item-masala-puri",
+          "productName": "Masala Puri",
+          "unitPrice": 50,
+          "quantity": 1,
+          "subtotal": 50
+        },
+        {
+          "id": "test-item-2",
+          "productId": "item-masala-samosa",
+          "productName": "Masala Samosa",
+          "unitPrice": 55,
+          "quantity": 1,
+          "subtotal": 55
+        }
+      ],
+      "id": "ord-1793016251611",
+      "orderNumber": "MC-2026-3676",
+      "createdAt": "2026-10-26T12:04:11.611Z",
+      "updatedAt": "2026-10-26T12:04:11.614Z",
+      "deliveryProvider": "Shop In-House Delivery (Town Hall Fleet)",
+      "deliveryTrackingRef": "RIDER-RAMESH-88"
+    },
+    {
+      "customerName": "Meenakshi Sundaram",
+      "customerPhone": "+91 99440 22114",
+      "orderType": "TAKEAWAY",
+      "status": "PLACED",
+      "subtotal": 100,
+      "discountAmount": 0,
+      "deliveryFee": 0,
+      "taxAmount": 5,
+      "finalAmount": 105,
+      "paymentMethod": "COD",
+      "paymentStatus": "PENDING",
+      "items": [
+        {
+          "id": "ord-item-1793016090954-0.35651520490332167",
+          "productId": "item-masala-puri",
+          "productName": "Masala Puri",
+          "unitPrice": 50,
+          "quantity": 2,
+          "subtotal": 100,
+          "selectedSpice": "Medium",
+          "customizations": []
+        }
+      ],
+      "id": "ord-1793016090955",
+      "orderNumber": "MC-2026-6549",
+      "createdAt": "2026-10-26T12:01:30.955Z",
+      "updatedAt": "2026-10-26T12:01:30.955Z"
+    },
+    {
+      "customerName": "Priya Sundaram",
+      "customerPhone": "+91 98430 11223",
+      "orderType": "DELIVERY",
+      "status": "OUT_FOR_DELIVERY",
+      "deliveryAddress": "32, Vysial Street, Coimbatore",
+      "subtotal": 105,
+      "discountAmount": 0,
+      "deliveryFee": 30,
+      "taxAmount": 5.25,
+      "finalAmount": 140,
+      "paymentMethod": "COD",
+      "paymentStatus": "PENDING",
+      "items": [
+        {
+          "id": "test-item-1",
+          "productId": "item-masala-puri",
+          "productName": "Masala Puri",
+          "unitPrice": 50,
+          "quantity": 1,
+          "subtotal": 50
+        },
+        {
+          "id": "test-item-2",
+          "productId": "item-masala-samosa",
+          "productName": "Masala Samosa",
+          "unitPrice": 55,
+          "quantity": 1,
+          "subtotal": 55
+        }
+      ],
+      "id": "ord-1793016090880",
+      "orderNumber": "MC-2026-9631",
+      "createdAt": "2026-10-26T12:01:30.880Z",
+      "updatedAt": "2026-10-26T12:01:30.883Z",
+      "deliveryProvider": "Shop In-House Delivery (Town Hall Fleet)",
+      "deliveryTrackingRef": "RIDER-RAMESH-88"
+    },
+    {
+      "id": "ord-1001",
+      "orderNumber": "MC-2026-1001",
+      "customerName": "Karthik Subramanian",
+      "customerPhone": "+91 98421 23456",
+      "customerEmail": "karthik@example.com",
+      "orderType": "DELIVERY",
+      "status": "DELIVERED",
+      "deliveryAddress": "14, D.B. Road, RS Puram, Coimbatore",
+      "landmark": "Near Flower Market",
+      "orderNotes": "Please pack sweet chutney separately",
+      "subtotal": 240,
+      "discountAmount": 48,
+      "appliedPromo": "CHAAT20",
+      "deliveryFee": 30,
+      "taxAmount": 9.6,
+      "finalAmount": 232,
+      "paymentMethod": "ONLINE",
+      "paymentStatus": "PAID",
+      "paymentGatewayRef": "pay_rzp_demo_1001",
+      "deliveryProvider": "Shop In-House Delivery (Town Hall Fleet)",
+      "deliveryTrackingRef": "TH-DEL-89",
+      "createdAt": "2026-10-26T07:01:30.875Z",
+      "updatedAt": "2026-10-26T08:01:30.876Z",
+      "items": [
+        {
+          "id": "item-1",
+          "productId": "item-masala-puri",
+          "productName": "Masala Puri",
+          "unitPrice": 60,
+          "quantity": 2,
+          "subtotal": 120,
+          "selectedSpice": "Medium"
+        },
+        {
+          "id": "item-2",
+          "productId": "item-dahi-puri",
+          "productName": "Dahi Puri",
+          "unitPrice": 80,
+          "quantity": 1,
+          "subtotal": 80,
+          "selectedSpice": "Mild"
+        },
+        {
+          "id": "item-3",
+          "productId": "item-lemon-mint-mojito",
+          "productName": "Lemon Mint Mojito",
+          "unitPrice": 65,
+          "quantity": 1,
+          "subtotal": 65,
+          "selectedSpice": "Mild"
+        }
+      ]
+    },
+    {
+      "id": "ord-1002",
+      "orderNumber": "MC-2026-1002",
+      "customerName": "Ananya Ramesh",
+      "customerPhone": "+91 97910 88765",
+      "customerEmail": "ananya@example.com",
+      "orderType": "TAKEAWAY",
+      "status": "PREPARING",
+      "orderNotes": "Less spicy for kids",
+      "subtotal": 190,
+      "discountAmount": 0,
+      "deliveryFee": 0,
+      "taxAmount": 9.5,
+      "finalAmount": 200,
+      "paymentMethod": "COD",
+      "paymentStatus": "PENDING",
+      "createdAt": "2026-10-26T11:31:30.876Z",
+      "updatedAt": "2026-10-26T11:46:30.876Z",
+      "items": [
+        {
+          "id": "item-4",
+          "productId": "item-combo-3",
+          "productName": "Combo 3 (Dahi Puri + Bhel Puri + Gulab Jamun)",
+          "unitPrice": 190,
+          "quantity": 1,
+          "subtotal": 190,
+          "selectedSpice": "Mild"
+        }
+      ]
+    },
+    {
+      "id": "ord-1003",
+      "orderNumber": "MC-2026-1003",
+      "customerName": "Senthil Kumar",
+      "customerPhone": "+91 94431 55432",
+      "customerEmail": "senthil@example.com",
+      "orderType": "DELIVERY",
+      "status": "PLACED",
+      "deliveryAddress": "Plot 7, Raja Street, Town Hall, Coimbatore",
+      "landmark": "Opposite Koniamman Temple",
+      "orderNotes": "Call upon arrival",
+      "subtotal": 310,
+      "discountAmount": 50,
+      "appliedPromo": "WELCOME50",
+      "deliveryFee": 0,
+      "taxAmount": 13,
+      "finalAmount": 273,
+      "paymentMethod": "ONLINE",
+      "paymentStatus": "PAID",
+      "paymentGatewayRef": "pay_rzp_demo_1003",
+      "deliveryProvider": "Shop In-House Delivery (Town Hall Fleet)",
+      "createdAt": "2026-10-26T11:51:30.876Z",
+      "updatedAt": "2026-10-26T11:51:30.876Z",
+      "items": [
+        {
+          "id": "item-5",
+          "productId": "item-cheese-pav-bhaji",
+          "productName": "Cheese Pav Bhaji",
+          "unitPrice": 110,
+          "quantity": 2,
+          "subtotal": 220,
+          "selectedSpice": "Medium"
+        },
+        {
+          "id": "item-6",
+          "productId": "item-blue-coraco",
+          "productName": "Blue Coraco",
+          "unitPrice": 75,
+          "quantity": 1,
+          "subtotal": 75,
+          "selectedSpice": "Mild"
+        }
+      ]
+    }
+  ]
+}

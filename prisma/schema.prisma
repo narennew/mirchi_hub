@@ -1,0 +1,202 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+enum Role {
+  CUSTOMER
+  ADMIN
+  STAFF
+}
+
+enum OrderType {
+  DELIVERY
+  TAKEAWAY
+}
+
+enum OrderStatus {
+  PLACED
+  ACCEPTED
+  PREPARING
+  READY_FOR_PICKUP
+  OUT_FOR_DELIVERY
+  DELIVERED
+  CANCELLED
+}
+
+enum PaymentMethod {
+  COD
+  ONLINE
+}
+
+enum PaymentStatus {
+  PENDING
+  PAID
+  FAILED
+  REFUNDED
+}
+
+enum DiscountType {
+  PERCENTAGE
+  FLAT
+}
+
+model User {
+  id        String    @id @default(uuid())
+  name      String
+  phone     String    @unique
+  email     String?   @unique
+  role      Role      @default(CUSTOMER)
+  pinHash   String?
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  addresses Address[]
+  orders    Order[]
+}
+
+model Address {
+  id         String   @id @default(uuid())
+  userId     String?
+  user       User?    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  label      String   @default("Home") // Home, Work, Other
+  street     String
+  landmark   String?
+  city       String   @default("Coimbatore")
+  postalCode String   @default("641001")
+  phone      String
+  createdAt  DateTime @default(now())
+}
+
+model Category {
+  id          String    @id @default(uuid())
+  name        String    @unique
+  slug        String    @unique
+  description String?
+  sortOrder   Int       @default(0)
+  isActive    Boolean   @default(true)
+  products    Product[]
+  createdAt   DateTime  @default(now())
+}
+
+model Product {
+  id                  String      @id @default(uuid())
+  name                String
+  slug                String      @unique
+  description         String
+  price               Float
+  categoryId          String
+  category            Category    @relation(fields: [categoryId], references: [id])
+  imageUrl            String
+  isVegetarian        Boolean     @default(true)
+  spiceLevel          String      @default("Medium") // Mild, Medium, Extra Spicy
+  isBestseller        Boolean     @default(false)
+  isAvailable         Boolean     @default(true)
+  isVerified          Boolean     @default(false) // Unverified seed flag for admin review
+  estimatedCost       Float       @default(0.0) // Food variable cost for gross margin calculation
+  customizations      String?     // JSON array of available customisation add-ons
+  orderItems          OrderItem[]
+  createdAt           DateTime    @default(now())
+  updatedAt           DateTime    @updatedAt
+}
+
+model Order {
+  id                   String        @id @default(uuid())
+  orderNumber          String        @unique // e.g. MC-2026-1001
+  userId               String?
+  user                 User?         @relation(fields: [userId], references: [id])
+  customerName         String
+  customerPhone        String
+  customerEmail        String?
+  orderType            OrderType     @default(DELIVERY)
+  status               OrderStatus   @default(PLACED)
+  deliveryAddress      String?
+  orderNotes           String?
+  
+  subtotal             Float
+  discountAmount       Float         @default(0.0)
+  deliveryFee          Float         @default(0.0)
+  taxAmount            Float         @default(0.0)
+  finalAmount          Float
+
+  paymentMethod        PaymentMethod @default(COD)
+  paymentStatus        PaymentStatus @default(PENDING)
+  paymentGatewayRef    String?
+
+  deliveryProvider     String?       // "Shop In-House Delivery", "Dunzo", "Porter"
+  deliveryTrackingRef  String?
+  deliveryTrackingUrl  String?
+
+  cancellationReason   String?
+  refundStatus         String?       // "NONE", "REQUESTED", "PROCESSED"
+
+  items                OrderItem[]
+  payments             Payment[]
+  createdAt            DateTime      @default(now())
+  updatedAt            DateTime      @updatedAt
+}
+
+model OrderItem {
+  id                 String   @id @default(uuid())
+  orderId            String
+  order              Order    @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  productId          String
+  product            Product  @relation(fields: [productId], references: [id])
+  productName        String
+  unitPrice          Float
+  quantity           Int
+  subtotal           Float
+  selectedSpice      String?
+  customizationsJson String?  // Add-ons selected with their prices
+}
+
+model Payment {
+  id                  String        @id @default(uuid())
+  orderId             String
+  order               Order         @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  amount              Float
+  currency            String        @default("INR")
+  status              PaymentStatus @default(PENDING)
+  gateway             String        @default("MOCK_RAZORPAY") // RAZORPAY, CASH, MOCK_RAZORPAY
+  transactionId       String?
+  gatewayPayloadJson  String?
+  createdAt           DateTime      @default(now())
+}
+
+model Promotion {
+  id             String       @id @default(uuid())
+  code           String       @unique
+  description    String
+  discountType   DiscountType @default(PERCENTAGE)
+  discountValue  Float        // percentage or flat rupees
+  minOrderValue  Float        @default(0.0)
+  maxDiscount    Float?       // optional cap for percentage discounts
+  validFrom      DateTime     @default(now())
+  validTo        DateTime?
+  usageLimit     Int?
+  usageCount     Int          @default(0)
+  isActive       Boolean      @default(true)
+  createdAt      DateTime     @default(now())
+}
+
+model StoreSettings {
+  id                     String   @id @default("default")
+  storeName              String   @default("Mirchi Chaats")
+  phone                  String   @default("9994147744 / 9597400881")
+  address                String   @default("Vysial Street, Town Hall, Coimbatore, Tamil Nadu 641001")
+  deliveryRadiusKm       Float    @default(8.0)
+  baseDeliveryFee        Float    @default(30.0)
+  freeDeliveryThreshold  Float    @default(399.0)
+  isDeliveryActive       Boolean  @default(true)
+  isTakeawayActive       Boolean  @default(true)
+  activeDeliveryProvider String   @default("Shop In-House Delivery")
+  rapidoBikeAllowed      Boolean  @default(false) // Tamil Nadu transport compliance default: false
+  rapidoBikeNotice       String   @default("Disabled: Bike taxi food delivery requires commercial transport compliance verification in Tamil Nadu.")
+  estimatedDeliveryMins  Int      @default(35)
+  gstPercentage          Float    @default(5.0)
+  variableCostRatio      Float    @default(0.42) // 42% estimated variable cost for margin analysis
+  updatedAt              DateTime @updatedAt
+}
